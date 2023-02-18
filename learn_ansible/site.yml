@@ -1,0 +1,7 @@
+---
+  - name: test my module
+    hosts: localhost
+    collections:
+      - vp_netology.learn_ansible
+    roles:
+      - my-test-role
